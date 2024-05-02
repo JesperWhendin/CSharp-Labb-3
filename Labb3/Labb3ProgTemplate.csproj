@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Labb3ProgTemplate</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\cola-image.png" />
+    <None Remove="Images\delicato-6p-image.png" />
+    <None Remove="Images\excavator-volvo-ec60e.png" />
+    <None Remove="Images\gott-blandat-image.png" />
+    <None Remove="Images\kaffe-image.png" />
+    <None Remove="Images\komatsu-pc170lc-image.png" />
+    <None Remove="Images\nocco-image.png" />
+    <None Remove="Images\product-image.png" />
+    <None Remove="Images\skotte-image.png" />
+    <None Remove="Images\vatten-image.png" />
+    <None Remove="Images\volvo-ec60e-image.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DataModels\Products\" />
+    <Folder Include="Enums\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\cola-image.png" />
+    <Resource Include="Images\delicato-6p-image.png" />
+    <Resource Include="Images\gott-blandat-image.png" />
+    <Resource Include="Images\kaffe-image.png" />
+    <Resource Include="Images\komatsu-pc170lc-image.png" />
+    <Resource Include="Images\nocco-image.png" />
+    <Resource Include="Images\product-image.png" />
+    <Resource Include="Images\skotte-image.png" />
+    <Resource Include="Images\vatten-image.png" />
+    <Resource Include="Images\volvo-ec60e-image.png" />
+  </ItemGroup>
+
+</Project>
